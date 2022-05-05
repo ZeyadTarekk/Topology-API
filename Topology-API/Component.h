@@ -5,7 +5,7 @@ using namespace std;
 #pragma once
 class Component
 {
-private:
+protected:
 	string id;
 	string type;
 	double defaultValue;
