@@ -1,20 +1,20 @@
 #include "ThreeTerminals.h"
 
-ThreeTerminals::ThreeTerminals(string id, string type, map<string, string> netlist, double defaultV, double minV, double maxV):Component(id,type,netlist,defaultV,minV,maxV)
+ThreeTerminals::ThreeTerminals(string id, string type, vector<pair<string, string>> netlist, double defaultV, double minV, double maxV):Component(id,type,netlist,defaultV,minV,maxV)
 {
 }
 
-string ThreeTerminals::getSource()
+pair<string, string> ThreeTerminals::getSource()
 {
-	return netlist["source"];
+	return netlist[0];
 }
 
-string ThreeTerminals::getDrain()
+pair<string, string> ThreeTerminals::getDrain()
 {
-	return netlist["drain"];
+	return netlist[1];
 }
 
-string ThreeTerminals::getGate()
+pair<string, string> ThreeTerminals::getGate()
 {
-	return netlist["gate"];
+	return netlist[2];
 }

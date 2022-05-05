@@ -5,9 +5,9 @@ class ThreeTerminals :
 {
 
 public:
-	ThreeTerminals(string id, string type, map<string, string>netlist, double defaultV, double minV, double maxV);
-	string getSource();
-	string getDrain();
-	string getGate();
+	ThreeTerminals(string id, string type, vector<pair<string, string>>netlist, double defaultV, double minV, double maxV);
+	pair<string, string> getSource();
+	pair<string, string> getDrain();
+	pair<string, string> getGate();
 };
 

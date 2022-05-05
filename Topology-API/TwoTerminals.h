@@ -2,8 +2,8 @@
 #include "Component.h"
 class TwoTerminals: public Component
 {
-	TwoTerminals(string id, string type, map<string, string>netlist, double defaultV, double minV, double maxV);
-	string getT1();
-	string getT2();
+	TwoTerminals(string id, string type, vector<pair<string, string>>netlist, double defaultV, double minV, double maxV);
+	pair<string, string> getT1();
+	pair<string, string> getT2();
 };
 
