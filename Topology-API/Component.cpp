@@ -1,6 +1,6 @@
 #include "Component.h"
 
-Component::Component(string id, string type, map<string, string>netlist, double defaultV, double minV, double maxV)
+Component::Component(string id, string type, vector<pair<string, string>>netlist, double defaultV, double minV, double maxV)
 {
 	this->id = id;
 	this->type = type;
@@ -36,7 +36,7 @@ double Component::getMaxValue()
 	return this->maxValue;
 }
 
-map<string, string> Component::getNetlist()
+vector<pair<string, string>> Component::getNetlist()
 {
 	return this->netlist;
 }

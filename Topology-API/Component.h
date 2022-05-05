@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
-#include<map>
+#include<vector>
+#include<utility>
 using namespace std;
 #pragma once
 class Component
@@ -11,16 +12,16 @@ protected:
 	double defaultValue;
 	double minValue;
 	double maxValue;
-	map<string, string> netlist;
+	vector<pair<string, string>> netlist;
 
 public:
-	Component(string id,string type,map<string,string>netlist,double defaultV,double minV,double maxV);
+	Component(string id,string type, vector<pair<string, string>>netlist,double defaultV,double minV,double maxV);
 	virtual string getID();
 	virtual string getType();
 	virtual double getDefaultValue();
 	virtual double getMinValue();
 	virtual double getMaxValue();
-	virtual map<string, string> getNetlist();
+	virtual vector<pair<string, string>> getNetlist();
 	
 };
 
