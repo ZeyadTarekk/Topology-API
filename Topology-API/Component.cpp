@@ -10,10 +10,6 @@ Component::Component(string id, string type, map<string, string>netlist, double 
 	this->minValue = minV;
 }
 
-void Component::print()
-{
-	cout << "Hello\n";
-}
 
 string Component::getID()
 {

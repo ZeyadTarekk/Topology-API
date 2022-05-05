@@ -15,13 +15,12 @@ private:
 
 public:
 	Component(string id,string type,map<string,string>netlist,double defaultV,double minV,double maxV);
-	void print();
-	string getID();
-	string getType();
-	double getDefaultValue();
-	double getMinValue();
-	double getMaxValue();
-	map<string, string> getNetlist();
+	virtual string getID();
+	virtual string getType();
+	virtual double getDefaultValue();
+	virtual double getMinValue();
+	virtual double getMaxValue();
+	virtual map<string, string> getNetlist();
 	
 };
 
