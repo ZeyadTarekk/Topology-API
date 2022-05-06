@@ -144,11 +144,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Component.cpp" />
+    <ClCompile Include="jsonDealing.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="ThreeTerminals.cpp" />
+    <ClCompile Include="Topology.cpp" />
+    <ClCompile Include="TwoTerminals.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\Zeyad Tarek\Desktop\json-develop\include\nlohmann\json.hpp" />
     <ClInclude Include="Component.h" />
+    <ClInclude Include="jsonDealing.h" />
+    <ClInclude Include="ThreeTerminals.h" />
+    <ClInclude Include="Topology.h" />
+    <ClInclude Include="TwoTerminals.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
