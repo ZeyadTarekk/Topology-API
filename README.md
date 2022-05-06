@@ -19,7 +19,9 @@
 ## 📝 Table of Contents
 
 - [About](#about)
+- [Documentation](#doc)
 - [Functionalities](#func)
+- [Class Hierarchy](#class)
 - [Get started](#get-started)
   - [Running](#running)
 - [Language](#tech)
@@ -30,6 +32,10 @@
 
 - Command line program that provide the functionality to access, manage and store device topologies.
 
+## 📃 Documentation <a name = "doc"></a>
+
+<a href="documentation/index.html">- index.html file in documentation folder</a>
+
 ## 🏢 Functionalities <a name = "func"></a>
 - Read a topology from a given JSON file and store it in the memory.
 - Write a given topology from the memory to a JSON file.
@@ -38,6 +44,8 @@
 - Query about which devices are in a given topology.
 - Query about which devices are connected to a given netlist node in a given topology.
 
+## 👨‍👩‍👧‍👧 Class Hierarchy <a name = "class"></a>
+  <img src="screenshots/Classes.png"></a>
 ## 🏁 Getting Started <a name = "get-started"></a>
 
 > This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these
