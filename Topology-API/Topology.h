@@ -12,6 +12,7 @@ public:
 	Topology(string id, vector<Component*> comp);
 	void setComponents(vector<Component*> comp);
 	string getId();
+	void setId(string id);
 	vector<Component*> getComponents();
 	vector<Component*> getConnectedComponents(string netlistNode);
 

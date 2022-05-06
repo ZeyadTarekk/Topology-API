@@ -3,7 +3,7 @@ TwoTerminals::TwoTerminals(string id, string type, vector<pair<string, string>> 
 {
 }
 
-pair<string,string> TwoTerminals::getT1()
+pair<string, string> TwoTerminals::getT1()
 {
 	return netlist[0];
 }

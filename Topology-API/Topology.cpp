@@ -34,6 +34,11 @@ string Topology::getId()
 	return this->id;
 }
 
+void Topology::setId(string id)
+{
+	this->id = id;
+}
+
 vector<Component*> Topology::getComponents()
 {
 	return this->components;
