@@ -1,5 +1,5 @@
 <map id="Component" name="Component">
-<area shape="rect" id="node1" title=" " alt="" coords="82,5,170,32"/>
-<area shape="rect" id="node2" href="$class_three_terminals.html" title=" " alt="" coords="5,80,116,107"/>
-<area shape="rect" id="node3" href="$class_two_terminals.html" title=" " alt="" coords="141,80,242,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="79,5,212,244"/>
+<area shape="rect" id="node2" href="$class_three_terminals.html" title=" " alt="" coords="5,292,136,413"/>
+<area shape="rect" id="node3" href="$class_two_terminals.html" title=" " alt="" coords="161,299,282,406"/>
 </map>
