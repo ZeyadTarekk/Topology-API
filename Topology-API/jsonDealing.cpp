@@ -1,6 +1,6 @@
 #include "jsonDealing.h"
 
-Topology* jsonDealing::createTopology(json jsonObj)
+Topology* JsonDealing::createTopology(json jsonObj)
 {
 	Topology* newTopology;
 	string topologyID = jsonObj["id"];
@@ -37,7 +37,7 @@ Topology* jsonDealing::createTopology(json jsonObj)
 	return newTopology;
 }
 
-void jsonDealing::writeComponent(ofstream& out, Component* comp)
+void JsonDealing::writeComponent(ofstream& out, Component* comp)
 {
 	out << "    {\n";
 	out << "      \"type\": \"" << comp->getType() << "\",\n";
@@ -70,16 +70,20 @@ void jsonDealing::writeComponent(ofstream& out, Component* comp)
 	}
 }
 
-Topology* jsonDealing::readJsonFile(string fileName)
+Topology* JsonDealing::readJsonFile(string fileName)
 {
 	ifstream file;
 	json jsonObj;
 	try {
-		if (fileName.find(".json") == string::npos)
-			throw "Invalid file name";
+		if (fileName.find(".json") == string::npos) {
+			cout << "Invalid file name\n";
+			return nullptr;
+		}
 		file.open(fileName, fstream::in);
-		if (file.is_open() == false)
-			throw "File not found";
+		if (file.is_open() == false) {
+			cout << "File not found\n";
+			return nullptr;
+		}
 		jsonObj = json::parse(file);
 		return createTopology(jsonObj);
 	}
@@ -92,7 +96,7 @@ Topology* jsonDealing::readJsonFile(string fileName)
 
 
 
-void jsonDealing::writeToJsonFile(Topology& top, string fileName)
+void JsonDealing::writeToJsonFile(Topology& top, string fileName)
 {
 	vector<Component*> vec = top.getComponents();
 	ofstream out(fileName + ".json");

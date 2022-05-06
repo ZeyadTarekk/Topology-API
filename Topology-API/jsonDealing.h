@@ -1,11 +1,10 @@
 #pragma once
 #include<fstream>
 #include"Topology.h"
-#include "TwoTerminals.h"
 #include<nlohmann\json.hpp>
 using json = nlohmann::json;
 
-class jsonDealing
+class JsonDealing
 {
 private:
 	Topology* createTopology(json jsonObj);
