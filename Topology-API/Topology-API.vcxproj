@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Application.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="jsonDealing.cpp" />
     <ClCompile Include="Source.cpp" />
@@ -151,6 +152,7 @@
     <ClCompile Include="TwoTerminals.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Application.h" />
     <ClInclude Include="C:\Users\Zeyad Tarek\Desktop\json-develop\include\nlohmann\json.hpp" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="jsonDealing.h" />

@@ -63,3 +63,10 @@ vector<Component*> Topology::getConnectedComponents(string netlistNode)
 	}
 
 }
+
+Topology::~Topology()
+{
+	for (int i = 0; i < components.size(); i++) {
+		delete components[i];
+	}
+}

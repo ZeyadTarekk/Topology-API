@@ -15,6 +15,7 @@ public:
 	void setId(string id);
 	vector<Component*> getComponents();
 	vector<Component*> getConnectedComponents(string netlistNode);
+	~Topology();
 
 };
 
