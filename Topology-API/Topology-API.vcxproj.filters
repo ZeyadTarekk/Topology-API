@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Component.cpp">
@@ -27,7 +27,7 @@
     <ClCompile Include="Topology.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="jsonDealing.cpp">
+    <ClCompile Include="JsonDealing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TwoTerminals.cpp">
@@ -50,7 +50,7 @@
     <ClInclude Include="Topology.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="jsonDealing.h">
+    <ClInclude Include="JsonDealing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TwoTerminals.h">
