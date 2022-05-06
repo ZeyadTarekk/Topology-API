@@ -1,4 +1,7 @@
 <map id="Topology::getComponents" name="Topology::getComponents">
-<area shape="rect" id="node1" title=" " alt="" coords="243,5,416,32"/>
-<area shape="rect" id="node2" href="$class_json_dealing.html#acbf4b9df5f067f51ee2865bc58fa556a" title=" " alt="" coords="5,5,195,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="640,31,813,57"/>
+<area shape="rect" id="node2" href="$class_a_p_i_testing.html#ad64522f33324507baf2f9667298fd777" title=" " alt="" coords="426,5,569,32"/>
+<area shape="rect" id="node5" href="$class_json_dealing.html#acbf4b9df5f067f51ee2865bc58fa556a" title=" " alt="" coords="403,56,592,83"/>
+<area shape="rect" id="node3" href="$class_a_p_i_testing.html#a9f623bc907cd9a08ec54d7edca34ab1c" title=" " alt="" coords="212,5,355,32"/>
+<area shape="rect" id="node4" href="$class_application.html#afa8cc05ce6b6092be5ecdfdae44e05f8" title=" " alt="" coords="5,5,164,32"/>
 </map>
