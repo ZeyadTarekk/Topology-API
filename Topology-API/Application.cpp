@@ -51,7 +51,7 @@ void Application::queryDevicesFunction()
 		cout << "Enter the ID of the needed topology to know devices\n";
 		cout << "The available topologies in the memory have ids: ";
 		topologiesIDSFunction();
-		cout << ": ";
+		cout << "\n";
 		cin >> topID;
 		top = getTopologyByID(topID);
 		if (top == nullptr)
@@ -77,7 +77,7 @@ void Application::queryNodeFunction()
 		cout << "Enter the ID of the needed topology to search for a node\n";
 		cout << "The available topologies in the memory have ids: ";
 		topologiesIDSFunction();
-		cout << ": ";
+		cout << "\n";
 		cin >> topID;
 		cout << "Enter node name: ";
 		cin >> node;
@@ -119,7 +119,7 @@ void Application::writeFunction()
 		cout << "Enter the ID of the needed topology to write\n";
 		cout << "The available topologies in the memory have ids: ";
 		topologiesIDSFunction();
-		cout << ": ";
+		cout << "\n";
 		cin >> topID;
 		cout << "Enter the name of the json file to write without extension i.e: file: ";
 		cin >> fileName;
@@ -145,7 +145,7 @@ void Application::deleteFunction()
 		cout << "Enter the ID of the needed topology to delete\n";
 		cout << "The available topologies in the memory have ids: ";
 		topologiesIDSFunction();
-		cout << ": ";
+		cout << "\n";
 		cin >> topID;
 		bool flag = false;
 		for (int i = 0; i < topologies.size(); i++) {
