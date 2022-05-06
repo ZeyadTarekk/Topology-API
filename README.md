@@ -84,9 +84,13 @@ Open Topology-API.sln
 
 <div align="center">
   <h3 align='left'>Main Screen</h3>
+  <img src="screenshots/S11.png"></a>
+    <h3 align='left'>Running tests</h3>
+  <img src="screenshots/S12.png"></a>
   <img src="screenshots/S1.png"></a>
   <img  src="screenshots/S2.png"></a>
   <img src="screenshots/S3.png"></a>
+
   <h3 align='left'>Query about which topologies are currently in the memory</h3>
   <img src="screenshots/S4.png"></a>
   <img src="screenshots/S9.png"></a>
