@@ -1,8 +1,10 @@
 #pragma once
 #include "JsonDealing.h"
+#include"APITesting.h"
 class Application
 {
 private:
+	APITesting testingObj;
 	JsonDealing jsonObj;
 	vector<Topology*> topologies;
 	int getSelectionFunction();

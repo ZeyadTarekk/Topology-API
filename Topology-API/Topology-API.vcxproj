@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="APITesting.cpp" />
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="JsonDealing.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="TwoTerminals.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="APITesting.h" />
     <ClInclude Include="Application.h" />
     <ClInclude Include="C:\Users\Zeyad Tarek\Desktop\json-develop\include\nlohmann\json.hpp" />
     <ClInclude Include="Component.h" />

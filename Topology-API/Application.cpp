@@ -210,7 +210,13 @@ void Application::Run()
 
 Application::Application()
 {
-	Run();
+	int n;
+	cout << "Enter 1 to run tests or 2 to run application: ";
+	cin >> n;
+	if (n == 1)
+		testingObj.runTests();
+	else
+		Run();
 }
 
 Application::~Application()
