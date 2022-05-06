@@ -34,7 +34,8 @@
 
 ## 📃 Documentation <a name = "doc"></a>
 
-<a href="documentation/index.html">- index.html file in documentation folder</a>
+- index.html file in documentation folder
+- <a href="https://zeyadtarekk.github.io/Topology-API-Documentation/">Here</a>
 
 ## 🏢 Functionalities <a name = "func"></a>
 - Read a topology from a given JSON file and store it in the memory.
