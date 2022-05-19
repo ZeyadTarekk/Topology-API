@@ -27,6 +27,7 @@
 - [Language](#tech)
 - [Screenshots](#Screenshots)
 - [Contributors](#Contributors)
+- [License](#license)
 
 ## 📙 About <a name = "about"></a>
 
@@ -119,3 +120,7 @@ Open Topology-API.sln
     
   </tr>
  </table>
+
+ ## License <a name = "license"></a>
+
+> This software is licensed under MIT License, See [License](https://github.com/ZeyadTarekk/Topology-API/blob/main/LICENSE) for more information ©ZeyadTarekk.
